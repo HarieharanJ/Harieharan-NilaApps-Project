@@ -1,0 +1,43 @@
+.component1 {
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: #fff; 
+    border-radius: 8px; 
+    max-width: 300px; 
+  }
+  
+  .course-details {
+    display: flex;
+    flex-direction: column; 
+    gap: 10px; 
+  }
+  
+  .course-detail label {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .course-detail p {
+    margin: 0; 
+    font-size: 14px; 
+    color: #555; 
+  }
+  
+  .outcome {
+    display: inline-block;
+    padding: 5px 10px; 
+    background-color: #66ab67;
+    margin: 5px 5px 0 0;
+    border-radius: 15px; 
+    font-size: 12px; 
+    color: black;
+  }
+  .mapped-outcome{
+    display: inline-block;
+    padding: 5px 10px; 
+    background-color: #3553bd; 
+    margin: 5px 5px 0 0;
+    border-radius: 15px;
+    font-size: 12px;
+    color: white;
+  }

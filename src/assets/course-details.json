@@ -1,0 +1,22 @@
+{
+  "courseCode": "BA3102",
+  "courseName": "Quantitative Techniques",
+  "courseType": "Program Elective",
+  "coursePeriod": "Semester - I",
+  "credits": {
+    "lecture": 3,
+    "tutorial": 0,
+    "practical": 1,
+    "project": 0
+  },
+  "courseOutcomes": ["CO2", "CO4", "CO5", "CO7", "CO13", "CO14"],
+  "mappedOutcomes": ["PO7", "PO10", "PO12", "PO8"],
+  "totalStudents": 102,
+  "averageMark": 85,
+  "assessmentProgress": [
+    { "type": "Assignment", "pending": 25, "completed": 75 },
+    { "type": "Quiz", "pending": 10, "completed": 90 },
+    { "type": "Presentation", "pending": 55, "completed": 45 },
+    { "type": "Lab", "pending": 20, "completed": 80 }
+  ]
+}

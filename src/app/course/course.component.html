@@ -1,0 +1,51 @@
+<div class="component1" *ngIf="courseDetails">
+    <div class="course-details">
+      <div class="course-detail">
+        <label>Course Code:</label>
+        <p>{{ courseDetails.courseCode }}</p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Course Name:</label>
+        <p>{{ courseDetails.courseName }}</p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Course Type:</label>
+        <p>{{ courseDetails.courseType }}</p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Course Period:</label>
+        <p>{{ courseDetails.coursePeriod }}</p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Credits:</label>
+        <p>Lecture: {{ courseDetails.credits.lecture }}, 
+           Tutorial: {{ courseDetails.credits.tutorial }},
+           Practical: {{ courseDetails.credits.practical }},
+           Project: {{ courseDetails.credits.project }}
+        </p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Course Outcomes (COs):</label>
+        <p>
+          <span *ngFor="let outcome of courseDetails.courseOutcomes" class="outcome">
+            {{ outcome }}
+          </span>
+        </p>
+      </div>
+  
+      <div class="course-detail">
+        <label>Mapped to this Course:</label>
+        <p>
+          <span *ngFor="let mappedOutcome of courseDetails.mappedOutcomes" class="mapped-outcome">
+            {{ mappedOutcome }}
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+  

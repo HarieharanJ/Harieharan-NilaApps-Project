@@ -1,0 +1,15 @@
+<div class="course-summary-container">
+  <div class="course-summary-item">
+    <h3>Total Students &nbsp; <span class="summary-value" >{{ totalStudents }}</span></h3>
+  </div>
+  &nbsp;
+  <div class="course-summary-item">
+    <h3>Course Average Mark &nbsp; <span class="summary-value">{{ courseAverageMark }}%</span></h3>
+  </div>
+</div>
+<div class="bar-chart-container">
+  <h6>Assessment Progress</h6>
+  <p-chart type="bar" [data]="barChartData" [options]="barChartOptions"></p-chart>
+</div>
+
+

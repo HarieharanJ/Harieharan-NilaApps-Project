@@ -1,0 +1,184 @@
+  .courseevaluation-container {
+    display: flex;
+    gap: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+  
+  .component {
+    border: 1px solid #ddd; 
+    background-color: #f9f9f9; 
+  }
+  
+  .component1 {
+    flex: 1;
+    max-width: 250px; 
+  }
+  
+  .right-side {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    gap: 20px; 
+  }
+  
+  .component2, .component3 {
+    background-color: white;
+    padding: 0px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+  .wrapper {
+    display: flex;
+    min-height: 100vh; 
+  }
+  
+  #sidebar {
+    background-color: #f8f9fa;
+    border-right: 1px solid #dee2e6; 
+  }
+  
+  .sidebar-header {
+    padding: 20px;
+    color: rgb(0, 0, 0);
+  }
+  
+  ul.components {
+  }
+  
+  ul.components li a {
+    padding: 10px;
+    font-size: 1.1em;
+    display: block;
+  }
+  
+  .user-profile {
+    display: flex;
+    align-items: center;
+    top: 10px;
+    right: 20px;
+    background-color: #fff;
+    padding: 5px 10px;
+  }
+  
+  .profile-info {
+    margin-right: 10px;
+    text-align: right;
+  }
+  
+  .user-name {
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+  }
+  
+  .user-role {
+    font-size: 12px;
+    color: #6c757d;
+    display: block;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+  }
+  
+.program-outcome-container {
+  width: 20%;
+  background-color: #f7f7f7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.program-outcome-title {
+  font-size: 15px;
+  color: #333;
+  padding: 5px;
+}
+
+.outcome-item {
+  padding: 15px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.outcome-title h3 {
+  font-size: 18px;
+  color: #4a4a4a;
+  margin-bottom: 10px;
+}
+.outcome-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.outcome-description p {
+  font-size: 14px;
+  color: #666666;
+}
+
+.outcome-progress {
+  display: flex;
+  align-items: center;
+  width: 90%;
+}
+
+.progress-bar {
+  width: 80%;
+  height: 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.percentage {
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+}
+
+.peo-tabs {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.peo-tabs button {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  background-color: #efefef;
+  color: #0b0f39;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 185px;
+  text-align: center;
+}
+
+.peo-tabs button:hover {
+  background-color: #2f6896;
+  color: #efefef;
+}
+
+.peo-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.peo-description {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.header{
+  margin-left: 10px;
+  margin-top: 10px;
+}

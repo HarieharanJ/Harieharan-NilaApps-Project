@@ -1,0 +1,98 @@
+.course-summary-container {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.course-summary-item {
+  
+  text-align: center;
+  background-color: #d7d7d7;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 7px;
+}
+
+.course-summary-item h3 {
+  font-size: 13px;
+  color: #333333;
+  
+  margin-bottom: 0px;
+}
+
+.summary-value {
+  font-size: 15px;
+  font-weight: bold;
+  color: #333333;
+}
+
+.summary-value span {
+  display: inline-block;
+  background-color: #f0f4f8;
+  border-radius: 50%;
+}
+
+
+.bar-chart-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.bar-chart {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  height: 200px; 
+  margin: 10px 0;
+}
+.bar-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  height: 100%;
+}
+.bar-segment-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 30px;
+  height: 100%;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+}
+
+.bar-segment {
+  width: 100%;
+}
+
+.bar-segment.pending {
+  background-color: #d9534f; 
+}
+
+.bar-segment.completed {
+  background-color: #5cb85c; 
+}
+
+.bar-labels {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+.bar-chart-container {
+  width: 100%;
+}
+
+.bar-chart canvas {
+  max-width: 100%;
+}
+
+
+
+
